@@ -49,11 +49,6 @@ Throughput: **~14.2 MB/s**.
 
 ---
 
-### Complexity Breakdown
-
-* **Tree Construction $\mathcal{O}(K \log K)$:** Fixed alphabet size ($K \le 256$) bounds tree generation to a constant sub-millisecond cost ($\approx 2048$ operations max).
-* **Data Processing $\mathcal{O}(N)$:** Two-pass sequential streaming (frequency profiling followed by bit-level encoding) yields a strictly linear runtime profile across arbitrarily large payloads.
-
 ## How to compile & run
 **Compile:**
 ``` sh
