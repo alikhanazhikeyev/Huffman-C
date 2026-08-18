@@ -47,8 +47,6 @@ Throughput: **~14.2 MB/s**.
 | **500 MB** | 35.2426 s | 14.19 MB/s | 
 | **1 GB** | 72.2708 s | 14.17 MB/s | 
 
----
-
 ## How to compile & run
 **Compile:**
 ``` sh
