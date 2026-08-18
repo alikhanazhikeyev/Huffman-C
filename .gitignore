@@ -1,0 +1,5 @@
+*.o
+*.huff
+huffman
+.DS_Store
+speed_test_tmp/
